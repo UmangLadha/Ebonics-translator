@@ -1,0 +1,45 @@
+.root{
+    --primary-color: black;
+    --secondary-color: white;
+ }
+ body{
+     background-color: var(--primary-color);
+ }
+.input{
+     min-height: 20vh;
+     width: 90%;
+     padding: 1rem;
+     margin: auto;
+     
+    }
+.navigation{
+     text-align: center;
+     padding: 2rem;
+     margin:1rem;
+    }
+
+.heading{
+    font-size: larger;
+    font: bold;
+    color: var(--secondary-color);
+}    
+
+.button{
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    background-color:var(--primary-color);
+    font-size: large;
+    color:var(--secondary-color);
+    border-color: var(--secondary-color);
+}    
+.output{
+    background-color: var(--secondary-color);
+    min-height: 15vh;
+    width: 90%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1ch;
+}
+
