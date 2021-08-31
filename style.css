@@ -1,45 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 .root{
     --primary-color: black;
     --secondary-color: white;
- }
- body{
-     background-color: var(--primary-color);
- }
-.input{
-     min-height: 20vh;
-     width: 90%;
-     padding: 1rem;
-     margin: auto;
-     
-    }
+    --width-break:600px;
+    --font-family: 'Limelight', cursive;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+    margin: 0px;
+}
+
 .navigation{
-     text-align: center;
-     padding: 2rem;
-     margin:1rem;
-    }
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
 
 .heading{
-    font-size: larger;
-    font: bold;
-    color: var(--secondary-color);
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--primary-color);
 }    
+
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+.input{
+    min-height: 20vh;
+    width: 95%;
+    margin: 1rem;
+    font-size: large;
+    font-family: var(--font-family);
+    padding: 1rem;
+    margin: auto;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    border-color:var(--secondary-color);
+    border-width:medium;
+}
 
 .button{
     padding: 1rem;
-    margin: auto;
-    margin-top: 1rem;
+    margin: 1rem;
     text-align: center;
+    border-radius: 1rem;
     background-color:var(--primary-color);
     font-size: large;
     color:var(--secondary-color);
-    border-color: var(--secondary-color);
-}    
+    border-color:var(--secondary-color);
+    font-family: var(--font-family);
+    border-style:double;
+}
+
 .output{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     min-height: 15vh;
     width: 90%;
+    padding:2rem;
+    font-size: large;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    margin: auto;
+    border-radius: 1rem;
+    overflow-wrap: break-word;
+    border: 2px solid var(--secondary-color);
+}
+
+footer{
+    color: var(--primary-color);
+    text-align: center;
     padding: 1rem;
-    margin-top: 1rem;
-    border: 1ch;
+    margin: auto;
+    font-size: large;
+    background-color: var(--secondary-color);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+footer p {
+    margin: auto;
+    max-width: var(--width-break);
+    padding-top: 1rem;
 }
 

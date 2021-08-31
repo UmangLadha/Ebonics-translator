@@ -12,5 +12,5 @@ function geturl(txt)
      fetch(geturl(txt))
      .then(respones => respones.json())
      .then(json => output.innerText = json.contents.translated);
-};
+} 
 button.addEventListener("click", clickhandler);
